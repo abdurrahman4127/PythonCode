@@ -1,1 +1,1 @@
-float
+str1
