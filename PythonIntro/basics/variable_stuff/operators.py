@@ -21,7 +21,6 @@ i += 10
 i = i + 10
 print(i) # 30
 
-
 print("---------special operators---------")
 
 # 'is' and 'is not' check if variables of 2 objects refer 
@@ -32,8 +31,6 @@ print("type of None:", type(None))
 x = True
 print(x is None)
 print(x is not None)
-print(x is True)
-
 
 print("---------membership operators---------")
 
