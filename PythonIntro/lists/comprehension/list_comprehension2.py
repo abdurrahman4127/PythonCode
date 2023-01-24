@@ -8,5 +8,5 @@ print("odd:", odd)
 
 
 # if True, go left; else go right
-ans = [f'{i} is even' if (i%2==0) else f'{i} is odd' for i in lst]
+ans = [f'{i} is even' if i%2==0 else f'{i} is odd' for i in lst]
 print(ans)
