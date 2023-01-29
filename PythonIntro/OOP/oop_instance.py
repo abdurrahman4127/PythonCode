@@ -1,5 +1,3 @@
-# instance variables
-
 class Employee:
     pass       # to leave empty for a time, use 'pass'
 
@@ -11,7 +9,7 @@ emp2 = Employee()
 print(emp1)  
 print(emp2)
 
-# 
+# class instance initialization
 emp1.first = "Abdur"
 emp1.last = "Rahman"
 emp1.email = "whoamiiammr.nobody@gmail.com"
