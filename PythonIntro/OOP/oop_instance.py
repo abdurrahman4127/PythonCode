@@ -1,7 +1,7 @@
 class Employee:
     pass       # to leave empty for a time, use 'pass'
 
-# creat instance of cRahmanlass  
+# creat instance of class  
 emp1 = Employee()
 emp2 = Employee()
 
