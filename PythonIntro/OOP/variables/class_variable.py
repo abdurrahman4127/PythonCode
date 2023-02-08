@@ -1,6 +1,7 @@
 '''
 class variable is a variable that is shared among all instances of a class. 
-it is defined within the class, not outside of any of the class's methods
+it is defined within the class, not outside of any of the class's methods, and
+it works like static variables
 '''
 
 class MyClass:
