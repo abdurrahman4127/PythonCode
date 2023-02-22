@@ -5,6 +5,7 @@ print(arr)
 print(f"size: {arr.size}")
 print(f"dimention: {arr.ndim}")  
 print(f"shape: {arr.shape}") 
+print(f"type: {type(arr)}")
 print(f"data type: {arr.dtype}") 
 
 # transpose the array
