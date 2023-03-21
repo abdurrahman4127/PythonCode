@@ -20,5 +20,5 @@ print(var2, var3, var4)
 
 # type of variable, everything in python is object that referes to other obj
 print("value of var2:", var2, "is of", type(var2))
-print(f"value of var3: ${var3} is of", type(var3))
+print(f"value of var3: {var3} is of", type(var3))  # JavaScript style
 print("value of var4:", var4, "is of", type(var4))

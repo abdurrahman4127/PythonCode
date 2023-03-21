@@ -21,3 +21,12 @@ a4 = "3.7"
 # print(a1 + a3) error
 # print(a1 + int(a4)) error
 print(a1 + float(a4)) # float
+
+
+# print 0-7 adding " > "
+lst = []
+for i in range(8):
+    # lst.append(i)  # error because join() works with string
+    lst.append(str(i))   # convert integers into strings
+
+print(" > ".join(lst))

@@ -13,8 +13,8 @@ print("insert(2, 1):", lst)
 
 
 # insert values at [n:n]
-lst[5:5] = [4, 5, 6]
-print("lst[5:5]:", lst)
+lst[5:5] = [4, 5, 6]   # not including, index 5
+print("lst[5:5] = [4, 5, 6]:", lst)
 
 
 # append the list (at the tail)

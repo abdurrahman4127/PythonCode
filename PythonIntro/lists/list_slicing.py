@@ -1,12 +1,11 @@
 # array is of class list
-a = [1, 2, 3, 4, 5, 6, 7] 
+a = [0, 1, 2, 3, 4, 5, 6, 7] 
 print(a)
 
 
 # accessing in reverse order
 print(f"a[-1] = {a[-1]}") # last 
 print(f"a[-2] = {a[-2]}") # (last - 1) 
-print(f"a[-3] = {a[-3]}") # (last - 2)
 
 
 print(f"a[4:] = {a[4:]}")

@@ -7,13 +7,13 @@ print(arr1)
 
 print("-------------------------------")
 
-# 3-D array with shape (4, 5, 2)
+# two 3/4 matrix
 arr2 = np.empty((2, 3, 4))
 print(arr2)
 
 print("-------------------------------")
 
-# two 3/4 arrays of value zero 
+# two 3/4 matrix of value zero 
 arr3 = np.zeros((2, 3, 4))
 print(arr3) 
 

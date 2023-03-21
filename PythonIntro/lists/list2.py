@@ -12,9 +12,15 @@ findX = 7
 # print(listA.count(findX))
 print("frequency of {}: {}" .format(findX, listA.count(findX)))
 
-# sort the list
+# sort the list (ascending order)
 listA.sort()
-print(listA)
+print("sort in asc:", listA)
+
+
+# sort the list (descending order)
+listA.sort(reverse = True)
+print("sort in desc:", listA)
+
 
 # print in reverse order
 listA.reverse()

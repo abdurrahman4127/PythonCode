@@ -11,10 +11,10 @@ numbers = [1, 2, 3, 4, 5]
 squared_numbers = [i**2 for i in numbers]
 print(squared_numbers) 
 
+
 # even checking 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even_numbers = [i for i in numbers if (i%2 == 0)]
-
 print(even_numbers)
 
 
@@ -22,7 +22,6 @@ print(even_numbers)
 num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 sm = sum([i for i in num])
 print("ans:", sm)
-
 
 # prints all pairs
 listA, listB = [1, 2, 3], [4, 5, 6] 

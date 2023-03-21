@@ -44,10 +44,9 @@ index = Vector.min_z_index(Vector, vec_lst)
 
 deleted_obj = vec_lst[index]
 print(f"deleting: [{deleted_obj.x}, {deleted_obj.y}, {deleted_obj.z}]")
+del vec_lst[index]   # delete the object from the list
 print()
 
-# delete the object from the list
-del vec_lst[index]
 
 print("------------ after -------------")
 for i in range(len(vec_lst)):

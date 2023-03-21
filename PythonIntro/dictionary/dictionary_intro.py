@@ -3,7 +3,7 @@
 
 genZ = {
     "fr": "for real",
-    "buzzing": "uprising",
+    "buzzing": "delicious",
     "no cap": "no lies"
 }
 
@@ -17,8 +17,8 @@ print()
 
 
 # fetching the keys
-keys = list(genZ.keys())  # list() lists elements (keys)
-print(keys)
+keys = list(genZ.keys())  # 'list() 'lists the elements (keys)
+print("keys:", keys)
 
 # fetching the values by their index (here, index is string)
 print(genZ["fr"])
@@ -32,7 +32,7 @@ print()
 
 
 # insert into the dictionary
-genZ["ight"] = ["aight", "alright","all right"]
+genZ["ight"] = ["aight", "alright", "all right"]
 for i in genZ:
     print(genZ[i], end = " ")
 print()

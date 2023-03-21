@@ -10,8 +10,8 @@ class Parent:
 class Child(Parent):
     def __init__(self, c_name, p_name):
         
-        # since we are extending parent class 
-        # and it expects a name argument, use super function to provide it 
+        # since we are extending parent class and it expects
+        # a name argument, use super function to provide it 
         super().__init__(p_name)
 
         # instance variable of child class
